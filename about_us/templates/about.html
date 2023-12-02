@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+<div class="container my-5">
+    <div class="d-flex justify-content-center mb-4 ">
+        <h1 class="font-monospace blue-border-bottom"><span class="text-warning">LEARN</span> <span class="text-success">MORE</span>  <span class="text-warning">ABOUT</span><span class="text-success"> US</span></h1>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <img src="{% static 'images/about1.jpg' %}" alt="banner image" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="col">
+                <p class="text-justify">Welcome to Sam's Bistro! We have been proudly serving our community for over 10 years. My wife Susan and I opened this little bistro in 2013 with a goal to provide fresh, handcrafted dishes to our neighbors using locally-sourced ingredients whenever possible. We prepare everything in-house, from our hearty sandwiches to the savory specials that change daily. Our chef takes pride in cooking up cuisine made with care and skill. We are so grateful to our loyal regulars as well as newcomers for supporting us throughout the years. We look forward to continuing to be your neighborhood bistro for years to come! Thank you for being part of our family.</p>
+            </div>
+            <div class="col">
+                <img src="{% static 'images/about2.jpg' %}" alt="banner image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
